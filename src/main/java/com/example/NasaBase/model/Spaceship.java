@@ -1,7 +1,10 @@
 package com.example.NasaBase.model;
 
+import java.util.UUID;
+
 public class Spaceship extends SpaceVehicle{
-    public Spaceship(int size, double price) {
-        super(size, price);
+
+    public Spaceship(UUID id, int size, double price) {
+        super(id, size, price);
     }
 }
